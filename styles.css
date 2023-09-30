@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcfcfc;
+    color: #4d4e53;
+    min-width: 240px;
+    line-height: 1.5;
+}
+
+header {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #4d4e53;
+}
+
+p {
+    margin: 1.2rem 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0.5rem;
+}
+
+ul li {
+    margin: 1rem;
+}
+
+/* NAVBAR */
+
+#navbar {
+    width: 30rem;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 0.5rem solid gray;
+    padding: 0.5rem;
+}
+
+#navbar header {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 1rem 0;
+    height: 88%;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+#navbar ul li {
+    border-top: 0.2rem solid gray;
+    padding: 0.5rem;
+    list-style: none;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* MAIN SECTION  */
+
+#main-doc {
+    margin-left: 30rem;
+    padding: 0.5rem 2rem 2rem 2rem;
+    height: 100vh;
+}
+
+.main-section header {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+#introduction header {
+    padding-top: 1rem;
+}
+
+code {
+    margin: 1.7rem 0;
+    display: block;
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background-color: beige;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    header {
+        font-size: 2.5rem;
+    }
+
+    #navbar {
+        width: 25rem;
+    }
+
+    #main-doc {
+        margin-left: 25rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #navbar {
+        width: 22rem;
+    }
+
+    #main-doc {
+        margin-left: 22rem;
+    }
+
+    ul {
+        padding-left: 2.2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    html {
+        font-size: 55%;
+    }
+
+    #navbar {
+        width: 20rem;
+    }
+
+    #main-doc {
+        margin-left: 20rem;
+    }
+
+    ul {
+        padding-left: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    #navbar {
+        width: 18rem;
+    }
+
+    #main-doc {
+        margin-left: 18rem;
+    }
+
+    ul {
+        padding-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 260px) {
+
+    html {
+        font-size: 40%;
+    }
+
+    #navbar {
+        width: 17.5rem;
+    }
+
+    #navbar header {
+        font-size: 2.3rem;
+    }
+
+    #main-doc {
+        margin-left: 17.5rem;
+    }
+
+    ul {
+        padding-left: 0.5rem;
+    }
+}
