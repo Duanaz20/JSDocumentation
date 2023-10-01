@@ -2,5 +2,4 @@
 
 Java Script Technical Documentation
 
-See the Live Preview of my project;
-https://duanaz20.github.io/JSDocumentation/
+<a href="https://duanaz20.github.io/JSDocumentation/">Live Preview</a>
